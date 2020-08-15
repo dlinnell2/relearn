@@ -1,6 +1,14 @@
 import React from "react";
-import HelloBootstrap from "./components/HelloBootstrap"
+import Navbar from "./components/Navbar"
+import Jumbotron from "./components/Jumbotron"
+import Card from "./components/Card"
 
-const App = () => <HelloBootstrap />;
+const App = () => 
+<div className="container">
+    <Navbar />
+    <Jumbotron />
+    <Card />
+</div>
+;
 
 export default App;
